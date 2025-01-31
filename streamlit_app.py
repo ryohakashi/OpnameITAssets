@@ -1,3 +1,5 @@
+
+
 # streamlit_app.py
 
 import streamlit as st
@@ -13,3 +15,4 @@ df = conn.read()
 # Print results.
 for row in df.itertuples():
     st.write(f"{row.Merk} has a {row.Status}")
+    
